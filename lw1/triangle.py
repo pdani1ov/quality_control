@@ -20,6 +20,9 @@ else:
         a = float(sys.argv[1])
         b = float(sys.argv[2])
         c = float(sys.argv[3])
-        print(get_triangle_type(a, b, c))
+        if a > sys.float_info.max or b > sys.float_info.max or c > sys.float_info.max:
+            print("unknown")
+        else:
+            print(get_triangle_type(a, b, c))
     except ValueError:
         print("unknown")

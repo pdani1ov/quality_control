@@ -1,6 +1,7 @@
 unknown
 2 2 b unknown
 1 2 3 4 unknown
+1.7976931348623157e+310 1.7976931348623157e+308 1.7976931348623157e+308 unknown
 -1 2 3 not_triangle
 2 2 6 not_triangle
 2 2 0 not_triangle
