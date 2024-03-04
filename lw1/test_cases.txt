@@ -10,8 +10,10 @@ unknown
 1 1 1 equilateral
 0.1 0.1 0.1 equilateral
 1.7976931348623157e+308 1.7976931348623157e+308 1.7976931348623157e+308 equilateral
-1 2 1 isosceles
-0.1 0.2 0.1 isosceles
+1 2 1 not_triangle
+0.1 0.2 0.1 not_triangle
+2 3 2 isosceles
+0.1 0.15 0.1 isosceles
 1.7976931348623157e+308 1.7976931348623157e+308 1.7976931348623155e+308 isosceles
 2 3 4 default
 0.1 0.3 0.2 default

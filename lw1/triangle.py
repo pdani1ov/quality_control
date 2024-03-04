@@ -4,7 +4,7 @@ import sys
 def get_triangle_type(a: float, b: float, c: float) -> str:
     if a <= 0 or b <= 0 or c <= 0:
         return "not_triangle"
-    if a + b < c or a + c < b or b + c < a:
+    if a + b <= c or a + c <= b or b + c <= a:
         return "not_triangle"
     if a == b and a == c:
         return "equilateral"
